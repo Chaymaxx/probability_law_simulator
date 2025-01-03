@@ -1,2 +1,1 @@
-# probability_law_simulator
-probability law simulator
+"probability_law_simulator" 
