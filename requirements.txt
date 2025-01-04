@@ -36,8 +36,6 @@ coloredlogs==15.0.1
 
 
 cssselect==1.1.0
-
-daal4py==2023.1.1
 dataclasses-json==0.6.7
 
 datashape==0.5.2
@@ -170,7 +168,6 @@ requests-toolbelt==1.0.0
 rich==13.9.4
 rsa==4.9
 
-scikit-learn-intelex==2025.0.1
 scipy==1.11.1
 
 shellingham==1.5.4
