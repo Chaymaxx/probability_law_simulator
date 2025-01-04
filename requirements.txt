@@ -30,7 +30,7 @@ charset-normalizer==3.4.0
 chroma-hnswlib==0.7.6
 chromadb==0.5.23
 click==8.1.7
-clyent==1.2.2
+clyent==1.2.1
 colorama==0.4.6
 coloredlogs==15.0.1
 conda-repo-cli==1.0.75
