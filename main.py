@@ -2,17 +2,11 @@ import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
 import subprocess
-import os
-
-# Définir le répertoire de base pour accéder aux ressources
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-RESOURCES_DIR = os.path.join(BASE_DIR, "resources")
 
 # Fonction pour exécuter un fichier Python correspondant à la section
 def execute_script(script_name):
     try:
-        script_path = os.path.join(BASE_DIR, script_name)
-        subprocess.Popen(["python", script_path])
+        subprocess.Popen(["python", script_name])
     except FileNotFoundError:
         print(f"Fichier introuvable : {script_name}")
 
@@ -37,8 +31,7 @@ title_label.pack(pady=60)
 
 # Image
 try:
-    img_path = os.path.join(RESOURCES_DIR, "mathLogo.png")
-    img = Image.open(img_path)
+    img = Image.open("mathLogo.png")  # Remplacez par le chemin de votre image
     img = img.resize((200, 200), Image.Resampling.LANCZOS)
     img = ImageTk.PhotoImage(img)
     img_label = tk.Label(left_frame, image=img, bg="#429596")
@@ -64,12 +57,11 @@ sections = [
 
 for section in sections:
     button_frame = tk.Frame(right_frame, bg="#ffffff")
-    button_frame.pack(pady=40, padx=20, anchor="w", fill=tk.X)
+    button_frame.pack(pady=40, padx=100, anchor="w", fill=tk.X)
 
     # Icône
     try:
-        icon_path = os.path.join(RESOURCES_DIR, section["icon"])
-        icon = Image.open(icon_path)
+        icon = Image.open(section["icon"])
         icon = icon.resize((30, 30), Image.Resampling.LANCZOS)
         icon = ImageTk.PhotoImage(icon)
         icon_label = tk.Label(button_frame, image=icon, bg="#ffffff")
