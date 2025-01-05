@@ -51,7 +51,8 @@ filelock==3.16.1
 flatbuffers==24.3.25
 fonttools==4.25.0
 frozenlist==1.5.0
-fsspec>=2023.0
+fsspec==2023.6.0
+
 
 gitdb==4.0.11
 GitPython==3.1.43
@@ -127,7 +128,8 @@ ply==3.11
 posthog==3.7.4
 
 propcache==0.2.1
-protobuf>=3.20,<5
+protobuf>=3.20.0,<4.0
+
 
 pyarrow==11.0.0
 pyasn1==0.6.1
@@ -137,6 +139,7 @@ pycurl==7.45.2
 pydantic==2.10.3
 pydantic-settings==2.6.1
 pydantic-core==2.6.0
+
 pydeck==0.9.1
 PyDispatcher==2.0.5
 
