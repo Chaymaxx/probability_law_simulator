@@ -45,7 +45,7 @@ Deprecated==1.2.15
 distro==1.9.0
 durationpy==0.9
 et-xmlfile==1.1.0
-fastapi==0.115.6
+
 filelock==3.16.1
 
 flatbuffers==24.3.25
@@ -140,7 +140,7 @@ pyasn1_modules==0.4.1
 pycurl==7.45.2
 
 pydantic-settings==2.6.1
-pydantic-core==2.6.0
+
 
 pydeck==0.9.1
 PyDispatcher==2.0.5
