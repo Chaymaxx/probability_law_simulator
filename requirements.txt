@@ -51,7 +51,7 @@ filelock==3.16.1
 flatbuffers==24.3.25
 fonttools==4.25.0
 frozenlist==1.5.0
-fsspec==2023.6.0
+fsspec>=2023.0
 
 
 gitdb==4.0.11
@@ -128,7 +128,8 @@ ply==3.11
 posthog==3.7.4
 
 propcache==0.2.1
-protobuf>=3.20.0,<4.0
+protobuf>=3.20.0,<5.0
+
 
 
 pyarrow==11.0.0
@@ -198,7 +199,8 @@ typing-inspect==0.9.0
 typing_extensions==4.12.2
 
 urllib3==2.2.3
-uvicorn==0.27.0
+uvicorn>=0.32.0
+
 
 
 watchfiles==1.0.3
