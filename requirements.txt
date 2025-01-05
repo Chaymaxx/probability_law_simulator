@@ -137,7 +137,7 @@ pyasn1==0.6.1
 pyasn1_modules==0.4.1
 
 pycurl==7.45.2
-pydantic==2.10.3
+
 pydantic-settings==2.6.1
 pydantic-core==2.6.0
 
